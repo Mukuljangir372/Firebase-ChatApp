@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="message"
+            type="com.mu.jan.sparkchat.data.model.chat.Message" />
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/chat_background_friend"
+                android:padding="10dp"
+                android:layout_marginStart="8dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/single_chat_user_message"
+                    android:layout_width="wrap_content"
+                    android:fontFamily="@font/sf_pro"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/fadeBlack"
+                    android:text="@{message.msg}"
+                    android:textSize="15dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:layout_below="@id/l1"
+            android:id="@+id/single_chat_user_dateAndTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fadeTextColor"
+            android:text="@{message.time}"
+            android:layout_marginStart="18dp"
+            android:textSize="12dp"
+            />
+    </RelativeLayout>
+
+
+
+</layout>

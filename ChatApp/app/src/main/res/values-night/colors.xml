@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0E1111</color>
+    <color name="colorPrimaryDark">#0E1111</color>
+    <color name="colorAccent">#68A0F8</color>
+
+    <color name="normal_text">#FFFFFF</color>
+    <color name="reverse_normal_text">#FF000000</color>
+    <color name="fadeTextColor">#959393</color>
+    <color name="person_image_color">#282828</color>
+    <color name="fadeColorAccent">#9EC0F6</color>
+
+    <color name="doubleFadeColorAccent">#8DB1CCF8</color>
+    <color name="fadeBlack">#0E1111</color>
+
+    <color name="mySecondaryColor">#333333</color>
+    <color name="dialogsBackground">#282828</color>
+    <color name="dialogsInLineColor">#333333</color>
+
+    <color name="chatActivityToolbar">#282828</color>
+    <color name="chatActivityBackground">#0E1111</color>
+    <color name="chatActivityMessageBar">#282828</color>
+
+    <color name="chat_background">#282828</color>
+    <color name="green">#4EE65C</color>
+</resources>
